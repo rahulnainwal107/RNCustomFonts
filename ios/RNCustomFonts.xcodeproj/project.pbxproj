@@ -20,6 +20,9 @@
 		52D6784C5E40E5ADE4A5E615 /* libPods-RNCustomFonts-RNCustomFontsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FAFAD85FCB6B73179117BB /* libPods-RNCustomFonts-RNCustomFontsTests.a */; };
 		646825D38655E5D52613E453 /* libPods-RNCustomFonts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 848139ADAD033330F2C3FE9D /* libPods-RNCustomFonts-tvOS.a */; };
 		716FA7089587E852FBE318B0 /* libPods-RNCustomFonts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D18859A83B2772B4BEE8C3 /* libPods-RNCustomFonts-tvOSTests.a */; };
+		D56F69E06C344BFE8967C5C6 /* Balthazar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57369387AC2F4576B368E60B /* Balthazar-Regular.ttf */; };
+		6FE3233C050A4B799891B20F /* IBMPlexSerif-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 615A833091C147C59439102E /* IBMPlexSerif-Thin.ttf */; };
+		336BE2F6AE264147A609685A /* Questrial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 151F980397AE49889A7BDFE7 /* Questrial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		ECC64C6FEF33A5A314F75E52 /* Pods-RNCustomFonts-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCustomFonts-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNCustomFonts-tvOSTests/Pods-RNCustomFonts-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		57369387AC2F4576B368E60B /* Balthazar-Regular.ttf */ = {isa = PBXFileReference; name = "Balthazar-Regular.ttf"; path = "../assets/fonts/Balthazar-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		615A833091C147C59439102E /* IBMPlexSerif-Thin.ttf */ = {isa = PBXFileReference; name = "IBMPlexSerif-Thin.ttf"; path = "../assets/fonts/IBMPlexSerif-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		151F980397AE49889A7BDFE7 /* Questrial-Regular.ttf */ = {isa = PBXFileReference; name = "Questrial-Regular.ttf"; path = "../assets/fonts/Questrial-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2E2AF475071F42D4BF820AAA /* Pods */,
+				94B61831CBD84CB6B1E17E3F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +204,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		94B61831CBD84CB6B1E17E3F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				57369387AC2F4576B368E60B /* Balthazar-Regular.ttf */,
+				615A833091C147C59439102E /* IBMPlexSerif-Thin.ttf */,
+				151F980397AE49889A7BDFE7 /* Questrial-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +358,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D56F69E06C344BFE8967C5C6 /* Balthazar-Regular.ttf in Resources */,
+				6FE3233C050A4B799891B20F /* IBMPlexSerif-Thin.ttf in Resources */,
+				336BE2F6AE264147A609685A /* Questrial-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
