@@ -12,4 +12,7 @@ module.exports = {
   assets: ['./assets/fonts/'],
 };
 ````
-Step - 3 : Now you are almost there, you need to run react-native link or npx react-native link command and you are done.</br>
+Step - 3 : Now you are almost there, you need to run react-native link or npx react-native link command and you are done.</br></br>
+
+If you are using react-native <=0.59 then go for rnpm(react-native package manager).
+
