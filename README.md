@@ -9,7 +9,7 @@ module.exports = {
     ios: {},
     android: {},
   },
-  assets: ['./assets/fonts/'],
+  assets: ['./assets/fonts/'], // Path of your assets folder
 };
 ````
 Step - 3 : Now you are almost there, you need to run react-native link or npx react-native link command and you are done.</br></br>
