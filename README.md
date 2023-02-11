@@ -16,3 +16,9 @@ Step - 3 : Now you are almost there, you need to run react-native link or npx re
 
 If you are using react-native <=0.59 then go for rnpm(react-native package manager).
 
+<B>Update</B>
+
+For React-native > 0.69, npx react-native link is no longer working
+
+Use <B>npx react-native-asset</B> instead
+
